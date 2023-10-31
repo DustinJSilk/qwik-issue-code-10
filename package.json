@@ -20,12 +20,13 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
+    "preview-mode": "qwik build preview --mode e2e && vite preview --open",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.2.15",
-    "@builder.io/qwik-city": "^1.2.15",
+    "@builder.io/qwik": "1.2.15",
+    "@builder.io/qwik-city": "1.2.15",
     "@types/eslint": "^8.44.4",
     "@types/node": "^20.8.4",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
